@@ -5,7 +5,6 @@ Using a Raspberry Pi, it collects data variables using sensors and execute actio
 
 Sensors and modules are instructed to do the following using Python:
 •DHT11, a sensor that to detect temperature and humidity.
-
 •Soil moisture sensor, used to detect moisture in a soil.
 
 •Light Dependent Resistor (LDR), to measure amount of light intensity through resistance changes.
