@@ -1,3 +1,4 @@
+#Script for the water pump
 import RPi.GPIO as GPIO
 import time
 
