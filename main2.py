@@ -1,3 +1,6 @@
+#Second main method to run in a different terminal due to errors that affects the other scripts
+#uses multiprocessing a well
+
 import RPi.GPIO as GPIO
 import time
 import MySQLdb
