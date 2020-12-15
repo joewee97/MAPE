@@ -3,6 +3,7 @@ import time
 import MySQLdb
 from mail import sendUserMail
 
+#Float switch to detect the water storage level
 
 #GPIO07, 26 for floater switch
 
