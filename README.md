@@ -12,6 +12,7 @@ Sensors and modules are instructed to do the following using Python:
 
 •Water float sensor, to indicate a lack of water in a container. Low water storage will trigger an SMTP to email the user.
 
+
 •Water pump with relay module, toggles on when soil moisture sensor detects absence of moisture.
 
 •Lamp with relay module, toggles on whenever condition is met (low light intensity).
