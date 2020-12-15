@@ -1,3 +1,4 @@
+#Runs script for the LDR sensor
 import datetime
 from time import sleep
 import RPi.GPIO as GPIO
