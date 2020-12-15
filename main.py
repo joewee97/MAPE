@@ -1,3 +1,5 @@
+#main class to simultaneously run scripts using multiprocessing
+
 import RPi.GPIO as GPIO
 import time
 from datetime import datetime
@@ -23,7 +25,7 @@ def main():
         p3 = Process(
             dht11()
             )
-        
+        #This process is located in file main2.py
         #p4 = Process(
         #    rc_time(pin_to_circuit)
         #    )
