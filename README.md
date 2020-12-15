@@ -2,7 +2,7 @@
 M.A.P.E., short for Monitoring Automated Plant Ecosystem. This project is used to monitor environmental factors that can best nurture a plant's requirement.
 
 Using a Raspberry Pi, it collects data variables using sensors with Python and execute actions simultaneously based on the data collected and stored in a database using MySQL and accessible through a web-based UI with PHP and HTML.
-
+________________________________________________________________________________________________________________________
 Sensors and modules are instructed to do the following:
 •DHT11, a sensor that to detect temperature and humidity.
 
@@ -15,4 +15,5 @@ Sensors and modules are instructed to do the following:
 •Water pump with relay module, toggles on when soil moisture sensor detects absence of moisture.
 
 •Lamp with relay module, toggles on whenever condition is met (low light intensity).
-
+________________________________________________________________________________________________________________________
+The scripts are put into an infinite loop that re-loop every interval.
