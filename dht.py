@@ -4,7 +4,7 @@ Created on Sun Jan 12 22:26:17 2020
 
 @author: Joe
 """
-
+#DHT11 sensor script to detect temperature and humidity
 import time
 from datetime import datetime
 import Adafruit_DHT
