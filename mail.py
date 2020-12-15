@@ -2,7 +2,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import smtplib
 
-#mailing notifications
+#mailing notifications to email users when water storage is low.
 smtp_username = "mape.notifications@gmail.com"
 smtp_password = "Monitorp97"
 #google SMTP server
